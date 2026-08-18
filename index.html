@@ -83,12 +83,54 @@
         </section>
 
         <section id="contact">
+            <h2>Contact Us & Reserve a Spot</h2>
             
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="08X-XXX-XXXX">
+                </div>
+
+                <div class="form-group">
+                    <label for="service-type">Inquiry Reason:</label>
+                    <select id="service-type" name="service-type">
+                        <option value="booking">Reserve a Quiet Reading Nook</option>
+                        <option value="inquiry">Book Availability / Order Inquiry</option>
+                        <option value="workshop">Silent Reading Event Inquiry</option>
+                        <option value="other">Other General Inquiry</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="visit-date">Preferred Visit Date:</label>
+                    <input type="date" id="visit-date" name="visit-date">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message / Additional Request:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your message or specific seating request here..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit Request</button>
+            </form> 
         </section>
     </main>
 
+
     <footer>
-      
+      <p>2026 Whiskers & Pages Bookshop. All Rights Reserved.</p>
+      <p>Whiskers & Pages Bookstore</p>
+      <p>Student ID: 6710510492 | Name: Panita Suankaeo</p>
     </footer>
 
 </body>
